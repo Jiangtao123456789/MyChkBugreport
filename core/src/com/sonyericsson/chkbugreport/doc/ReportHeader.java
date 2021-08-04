@@ -50,7 +50,6 @@ public class ReportHeader extends Chapter {
     protected DocNode buildContacts() {
         return new Block()
             .add("For questions and suggestions feel free to contact me: ")
-            .add(new Link("mailto:tao-jiang@tcl.com", "Jiang Tao (tao-jiang@tcl.com)"))
             .add(new Block().setId("new-version"));
     }
 
